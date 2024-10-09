@@ -17,7 +17,6 @@ namespace backend.database
     {
         base.OnModelCreating(modelBuilder);
     }
-    // Define your DbSets here
     public DbSet<Item> Items { get; set; }
     }
 }
